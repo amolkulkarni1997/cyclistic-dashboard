@@ -1,0 +1,7 @@
+data/*.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+dashboard_data.csv filter=lfs diff=lfs merge=lfs -text
+divvy_stations.csv filter=lfs diff=lfs merge=lfs -text
+divvy_trips.csv filter=lfs diff=lfs merge=lfs -text
+map_data.csv filter=lfs diff=lfs merge=lfs -text
+cleaned_cyclistic_data.csv filter=lfs diff=lfs merge=lfs -text
