@@ -42,6 +42,16 @@ if user_type == "Casual" or user_type == "Member":
 
 st.title("🚲 Cyclistic Bike-Share Dashboard")
 
+# Author Info with Icons
+st.markdown(
+    """
+    **Author:** Amol Vivek Kulkarni  
+    [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amol-vivek-kulkarni-a3834b114/) 
+    [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/amolkulkarni1997)
+    """,
+    unsafe_allow_html=True
+)
+
 # Key Metrics
 col1, col2, col3 = st.columns(3)
 col1.metric("Total Rides", f"{len(df):,}")
